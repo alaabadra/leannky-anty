@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa');
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
+@import url('https://fonts.googleapis.com/css?family=Lateef|Reem+Kufi');
+@import url('https://fonts.googleapis.com/css?family=Jomhuria');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    font-size: 100%;
+}
+nav{
+    background-color: #333333;
+    width: 100%;
+    display: inline-table;
+    min-height: 80px;
+}
+/*##########################*/
+/* footer section */
+/*##########################*/
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #333333;
+    color: #EEEEEE;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

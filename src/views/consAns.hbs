@@ -1,0 +1,22 @@
+<section class="container">
+    <div id="content-consAns" class="container__content">
+        <div class="consAns">
+            <span class="main-message underline">>>اجوبتي السابقة<<</span>
+            {{#each data}}
+            <div class="answer-prev">
+                <div class="ans-content">
+                    <span class="ans-content--title "> >>عنوان الاستشارة المدخلة :
+                        <span class="consAns-text">{{this.title}}</span></span>
+                </div>
+                <div class="ans-content">
+                    <span class="ans-content--title"> >>موضوع الاستشارة المدخلة :
+                        <span class="consAns-text">{{this.content}}</span></span>
+                </div>
+                <div class="ans-content">
+                    <span class="ans-content--title"> >>الاجابة :
+                        <span class="consAns-text">{{this.answer}}</span>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+</section>

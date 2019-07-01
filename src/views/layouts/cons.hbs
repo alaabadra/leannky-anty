@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+{{>head}}
+
+<body>
+    <main>
+        {{>consHeader}}
+        {{{body}}}
+    </main>
+    {{>footer}}
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    {{#each js}}
+    <script src="js/{{this}}.js"></script>
+    {{/each}}
+</body>
+
+</html>

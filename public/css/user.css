@@ -1,0 +1,225 @@
+.profile, .userq ,.prevQ{
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 549px;
+    overflow: hidden;
+    position: relative;
+
+}
+.profile-container ,.userq-contanier,.prevQ-container{
+    background-color: #00000030;
+    box-shadow: 3px 4px 0px #00000025, 2px 3px 3px #737373;
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    width: 54%;
+    min-height: 480px;
+    overflow: scroll;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 22px; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 480px; 
+    }
+.userq-contanier{
+    min-height: 480px;
+    padding: 5px;
+    display: block;
+    padding-top: 40px;
+    }
+.prevQ-container{
+    overflow: auto;
+    }
+.userProfile-title , .userq-title ,.prevQ-title{
+    font-family: 'Aref Ruqaa', sans-serif;
+    font-size: 25px;
+    color: #3064e8;
+    margin: 5px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    } 
+.userProfile-content {
+    font-family: 'Lato';
+    font-size: 20px;
+    color: #333333;
+    margin: -6px 53px 20px 40px;
+    background-color: #C4C4C4;
+    width: 80%;
+    border-radius: 3px;
+    border: 14px;
+    box-shadow: 0px 0px 4px 0px rgb(196,196,196,50%);
+    align-self: flex-start;
+}
+.usernav-content{
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.logo {
+    padding: 5px;
+}  
+.hellow{
+    color: #EEEEEE;
+    font-family: 'Aref Ruqaa', sans-serif;
+    font-size: 24px;
+    margin-left: 9px;
+    
+    }
+.logout-btn{
+    background-color: #F3F2F2;
+    color: #333333;
+    width: 78px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px;
+    box-shadow: 0px 0px 4px 0px rgb(196,196,196,50%);
+    align-self: flex-start;
+    font-family: 'Lato';
+}
+.logout:hover{
+    color: #F3F2F2;
+    background-color: #A3BBF8;
+    box-shadow: 1px 1px 4px 1px  rgb(196,196,196,50%);
+}
+.usernave-element{
+    margin-left: 350px;
+    margin-top: 4px;
+}
+.navButton{
+    font-family: 'Aref Ruqaa', sans-serif;
+    font-size: 25px;
+    background-color : #333333;
+    color: #EEEEEE;
+    border: 0px;
+    margin-left: 20px;
+    outline: none;
+}
+.navButton:hover{
+    color:#A3BBF8;
+    border: 0px;
+    }
+.navButton:active{
+    color:#A3BBF8;
+    border: none;
+    }
+.question{
+    margin: 15px 50px 20px 50px;
+    background-color: #C4C4C4;
+    }
+.subCont{
+    font-family: 'Lato';
+    font-size: 20px;
+    color: #333333;
+    width: 555px;
+    border-radius: 3px;
+    border: 14px;
+    box-shadow: 0px 0px 4px 0px rgb(196,196,196,50%);
+    align-self: flex-start;  
+}
+.userq-form{
+    margin: 25px -1px 30px 50px;
+    display: flex;
+    flex-direction: column;
+}
+.label , .q-content{
+    display: block;
+    margin: 1px 50px 12px 50px;
+    font-size: 16px;
+    color: #333333;
+}
+.text{
+    display: block;
+    margin: 1px 50px 1px 50px;
+    font-size: 18px;
+    color: #0767a2;
+}
+.answer-cons{
+    display: block;
+    margin: 1px 50px 1px 50px;
+    font-size: 18px;
+    color: #0767a2;
+    }
+.text-content{
+    margin: 1px 50px 1px 50px;
+    }
+.input{
+    margin: 20px 50px 20px 50px;
+    min-height: 50px;
+    padding: 10px;
+    color: #333333;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #F3F2F2;
+    border-radius: 10px;
+    width: 90%;
+}
+.input:focus{
+    border:4px solid #A3BBF8;
+    border-radius: 10px;
+}
+.textarea{
+    width: 90%;
+} 
+.transmit-button{
+    margin: -1px 50px 15px 50px;
+    font-family: 'Lato';
+    height: 50px;
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px  rgb(0,0,0,100%);
+    font-size: 20px;
+    width: 90%;
+    color: #333333;
+}
+.msg{
+    color: #b34700;
+    font-size: 16px;
+    align-self: center;
+    font-family: 'Lato';
+    margin-right: 50px;
+}
+
+/*##########################*/
+/* media query */
+/*##########################*/
+@media only screen and (max-width: 850px) {
+    .nav--content{
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 730px) {
+    .userq-contanier {
+        width: 375px;
+    }
+    .form__login {
+        margin-bottom: 5px;
+    }
+    
+    
+}
+@media only screen and (max-width: 375px) {
+    .userq {
+        width: 375px;
+        
+    }
+    .sabqa .form__login{
+        font-size: 14px;
+    }
+    .nav--content{
+        padding: 5px;
+    }
+    .form__login label button{
+        margin-bottom: 5px;
+    }
+}
+

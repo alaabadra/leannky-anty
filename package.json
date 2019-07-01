@@ -1,0 +1,45 @@
+{
+  "name": "leannky-anty",
+  "version": "1.0.0",
+  "description": "most of women rights get lost becuse they dont know their legal rights specially inheritance rights,also women cann't resort to legal consultant on the real life such as fair,or not has mony.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "NODE_ENV=dev nodemon src/index.js",
+    "test": "NODE_ENV=test tape test/test.js | tap-spec",
+    "testdb": "NODE_ENV=test tape test/dbTest.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FACG6/leannky-Anty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FACG6/leannky-Anty/issues"
+  },
+  "homepage": "https://github.com/FACG6/leannky-Anty#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^7.9.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "supertest": "^4.0.2",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.10.1"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
